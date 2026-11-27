@@ -1,8 +1,8 @@
 ## EXPERIMENT NO. 3 – STAIRCASE WIRING
 
-| **Name:** | | **Reg. No.:** | |
+| **Name:** |U Rishinder | **Reg. No.:** |26008317 |
 |---|---|---|---|
-| **Date:** | | **Batch / Section:** | |
+| **Date:** | 27.11.2026| **Batch / Section:** |26ODJ084 |
 
 ---
 
@@ -47,39 +47,43 @@ To control the status of the given lamp by using two-way switches.
 
 ### Circuit diagram
 
-*[ Insert the direct connection circuit diagram here ]*
+<img width="1280" height="877" alt="e8c77e59-ec33-411c-b10b-1ad24ea25b27" src="https://github.com/user-attachments/assets/e95ff624-fcbc-4fb9-a489-759dfe595fa7" />
+
 
 **Figure 1:** Staircase wiring – direct connection
 
 ### Tabulation 1: Truth table – direct connection
 
-*Enter the switch position as UP / DOWN (or 1 / 0) and the lamp status as ON / OFF for each combination.*
+<img width="1280" height="852" alt="image" src="https://github.com/user-attachments/assets/4fcb1e02-e7b0-44c3-9b5b-545404da1f69" />
+
 
 | S. No. | Switch S1 position | Switch S2 position | Lamp status (ON / OFF) |
 |:---:|:---:|:---:|:---:|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
+| 1 |OFF |OFF |ON |
+| 2 |OFF |ON |OFF |
+| 3 |ON |OFF |OFF |
+| 4 |ON |ON |ON |
 
 ## B. CROSS CONNECTION
 
 ### Circuit diagram
 
-*[ Insert the cross connection circuit diagram here ]*
+<img width="1043" height="578" alt="image" src="https://github.com/user-attachments/assets/887af08d-5269-4815-ba8e-cac4a21213b2" />
+
 
 **Figure 2:** Staircase wiring – cross connection
 
 ### Tabulation 2: Truth table – cross connection
 
-*Enter the switch position as UP / DOWN (or 1 / 0) and the lamp status as ON / OFF for each combination.*
+<img width="1053" height="536" alt="image" src="https://github.com/user-attachments/assets/8ff6bc70-3e9c-494c-a6eb-ef9c6f2507f4" />
+
 
 | S. No. | Switch S1 position | Switch S2 position | Lamp status (ON / OFF) |
 |:---:|:---:|:---:|:---:|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
+| 1 |OFF |OFF |OFF |
+| 2 |OFF |ON |ON |
+| 3 |ON |OFF |ON |
+| 4 |ON |ON |OFF |
 
 ## SIMULATION USING PROTEUS
 
@@ -87,13 +91,15 @@ Build both the direct and cross connection circuits in Proteus using an AC sourc
 
 ### A. Direct connection – simulation
 
-*[ Paste the Proteus direct connection simulation screenshot here ]*
+<img width="1920" height="1080" alt="EXP 3 b1" src="https://github.com/user-attachments/assets/4d56beba-48cd-46e9-97b4-c92fae6dee6b" />
+
 
 **Figure 3:** Proteus simulation – direct connection
 
 ### B. Cross connection – simulation
 
-*[ Paste the Proteus cross connection simulation screenshot here ]*
+<img width="1920" height="1080" alt="EXP 3 a1" src="https://github.com/user-attachments/assets/3069d52e-833b-445a-a68a-fe5e0e147ca2" />
+
 
 **Figure 4:** Proteus simulation – cross connection
 
